@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lea's Portfolio - Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-image: url('static/757bbac2062c10ef186dad99ff68304c.jpg');
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            border-color: black;
+            background-color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding: 19px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #694E4E;
+            margin: 0 15px;
+            border-color: black;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6699;
+        }
+
+        .container {
+            max-width: 80%;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: left;
+            margin: auto;
+            margin-top: 10vh;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            align-items: center;
+        }
+
+        .text-container {
+            flex: 1;
+        }
+
+        .text-container h1,
+        .text-container ul {
+            text-align: left;
+            color: #694E4E;
+        }
+
+        .text-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .text-container li {
+            margin: 10px 0;
+        }
+
+        .text-container a {
+            text-decoration: none;
+            color: #ff6699; /* Pink color for the link text */
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .text-container a:hover {
+            color: #ff3366; /* Darker pink color on hover */
+        }
+
+        footer {
+            background-color: #694E4E;
+            color: #FFE5E5;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        p {
+            font-style: italic;
+            font-family: serif;
+            text-align: center;
+            line-height: 0.9;
+            color: #FFE5E5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>⚘✧˖°‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. LEA'S PORTFOLIO ⚘✧˖°‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</h1>
+        <div>
+            <a href="/">HOME</a>
+            <a href="/profile">PROFILE</a>
+            <a href="/works">WORKS</a>
+            <a href="/contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="text-container">
+            <h1>Projects</h1>
+            <ul>
+                <li><a href="/templates/touppercase.html">Uppercase</a></li>
+                <li><a href="/templates/areaOfcircle.html">Area of Circle</a></li>
+                <li><a href="/templates/area_of_triangle.html">Area of Triangle</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

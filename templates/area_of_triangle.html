@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Triangle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('/static/757bbac2062c10ef186dad99ff68304c.jpg'); /* Replace with your actual image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        nav {
+            border-color: black;
+            background-color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding: 19px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #694E4E;
+            margin: 0 15px;
+            border-color: black;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6699;
+        }
+
+        .container {
+            max-width: 80%; /* Adjusted max-width */
+            padding: 40px;
+            border-radius: 10px;
+            text-align: left;
+            margin: auto;
+            margin-top: 10vh;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            align-items: center;
+            flex-direction: column; /* Adjusted flex-direction */
+        }
+
+        h2 {
+            text-align: center; /* Adjusted text-align */
+            color: #694E4E;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            color: #694E4E;
+        }
+
+        .input-group input {
+            width: 100px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .button {
+            background-color: #fca3d0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #ff6699;
+        }
+
+        .result {
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center; /* Adjusted text-align */
+            color: #694E4E;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>⚘✧˖°‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. LEA'S PORTFOLIO ⚘✧˖°‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/works">Works</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Calculate Area of Triangle</h2>
+        <div class="input-group">
+            <label for="base">Base:</label>
+            <input type="number" id="base" name="base" required>
+        </div>
+        <div class="input-group">
+            <label for="height">Height:</label>
+            <input type="number" id="height" name="height" required>
+        </div>
+        <button class="button" onclick="calculateArea()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateArea() {
+            var base = parseFloat(document.getElementById('base').value);
+            var height = parseFloat(document.getElementById('height').value);
+            var result = 0.5 * base * height;
+            document.getElementById('result').textContent = 'Area: ' + result;
+        }
+    </script>
+</body>
+
+</html>

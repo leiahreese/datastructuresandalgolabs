@@ -1,0 +1,19 @@
+# Project Title
+
+Lea's Portfolio - A personal portfolio website using Flask
+
+## Description
+
+This project is a personal portfolio website for Lea, a sophomore student from Polytechnic University of the Philippines majoring in Computer Engineering. The website showcases Lea's profile, works, and provides contact information.
+
+## Prerequisites
+
+- Python (3.6 or higher)
+- Flask (install via `pip install Flask`)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone [repository_url]
