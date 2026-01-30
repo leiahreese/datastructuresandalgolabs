@@ -4,7 +4,7 @@ Lea's Portfolio - A personal portfolio website using Flask
 
 ## Description
 
-This project is a personal portfolio website for Lea, a sophomore student from Polytechnic University of the Philippines majoring in Computer Engineering. The website showcases Lea's profile, works, and provides contact information.
+This project is a personal portfolio website for me, a sophomore student from Polytechnic University of the Philippines majoring in Computer Engineering. The website showcases my profile, works, and as well as my contact information.
 
 ## Prerequisites
 
@@ -17,3 +17,4 @@ This project is a personal portfolio website for Lea, a sophomore student from P
 
 ```bash
 git clone [repository_url]
+
